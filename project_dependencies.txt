@@ -2,3 +2,14 @@ Framework: flask.
 pip install flask
 
 Python Version: Python 3.6.5 (3.6.2 minimum)
+
+Runs on: localhost:5000 (127.0.0.1:5000/)
+
+Value to instantiate __main__ file:
+- export FLASK_APP=(filename).py
+- flask run
+
+CTRL+C = Stop Service
+
+Enable Debug Mode in Flask:
+- export FLASK_DEBUG=1
