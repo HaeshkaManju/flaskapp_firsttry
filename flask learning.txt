@@ -1,0 +1,14 @@
+Github Code Snippets for the CSS:
+https://github.com/CoreyMSchafer/code_snippets/blob/master/Python/Flask_Blog/02-Templates/templates/home.html
+
+Part 2 of Flask Video:
+https://www.youtube.com/watch?v=QnDWIZuWYW0
+
+An understanding understanding of the JavaScript things under the hood:
+https://www.youtube.com/watch?v=Bv_5Zv5c-Ts
+
+http://flask.pocoo.org/
+
+CSS tricks - creating a web app from scratch:
+https://css-tricks.com/app-from-scratch-4-html-css/
+https://www.copterlabs.com/creating-an-app-from-scratch-part-2/
