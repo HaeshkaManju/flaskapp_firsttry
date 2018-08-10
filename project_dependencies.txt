@@ -1,5 +1,6 @@
 Framework: flask.
 pip install flask
+pip install flask_wtf
 
 Python Version: Python 3.6.5 (3.6.2 minimum)
 
@@ -15,4 +16,7 @@ Enable Debug Mode in Flask:
 - export FLASK_DEBUG=1
 
 
-"URL for" allows Flask to find the location of files without hard-coding the file path.
+"url_for" allows Flask to find the location of files without hard-coding the file path.
+- When using url, the argument needs to pass-in the name of the function, not the name of the route.
+
+variables use: {{}}
