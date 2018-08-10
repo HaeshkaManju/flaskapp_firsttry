@@ -13,3 +13,6 @@ CTRL+C = Stop Service
 
 Enable Debug Mode in Flask:
 - export FLASK_DEBUG=1
+
+
+"URL for" allows Flask to find the location of files without hard-coding the file path.
