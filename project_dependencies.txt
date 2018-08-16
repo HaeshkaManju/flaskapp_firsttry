@@ -1,8 +1,13 @@
 Framework: flask.
 pip install flask
 pip install flask_wtf
+pip install flask-sqlalchemy
+Additional Libraries:
+- datetime,
+- forms
 
 Python Version: Python 3.6.5 (3.6.2 minimum)
+Flask_Alchemy Version: flask-sqlalchemy-2.3.2
 
 Runs on: localhost:5000 (127.0.0.1:5000/)
 
@@ -20,3 +25,13 @@ Enable Debug Mode in Flask:
 - When using url, the argument needs to pass-in the name of the function, not the name of the route.
 
 variables use: {{}}
+
+setting a relative path, use: ///
+
+
+When creating the SQLite DataBase - use the following:
+- Terminal,
+-- exit out of flask operations
+-- Python
+--- from flaskblog import db # 'flaskblog' is the file's main name.
+---- db.create_all()
